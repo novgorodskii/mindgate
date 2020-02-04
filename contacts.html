@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mindgate</title>
+    <title>Контакты</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
     <link rel="shortcut icon" href="img/favic.png" type="image/x-icon">
@@ -13,18 +13,18 @@
 </head>
 <body>
     <header>
-        <div class="header-container container">
+        <span class="header-container container">
 			<a href="index.html" class="logo-link">
 				<img class="logo" src="img/logo.svg" alt="logo"/>
 			</a>
             <nav>
-                <ul class="nav-menu">
+                <ul>
                     <li><a href="#">Главная</a></li>
                     <li><a href="about-company.html">О компании</a></li>
                     <li><a href="services.html">Услуги</a></li>
                     <li><a href="contacts.html">Контакты</a></li>
                 </ul>
-                <button id="burger" class="burger">
+                <button id="burger" class="burger" onclick="myFunction(this)">
                     <span class="bar1"></span>
                     <span class="bar2"></span>
                     <span class="bar3"></span>
@@ -33,11 +33,30 @@
         </div>
     </header>
     <section>
-        <div class="background__main">
-            <h1 class="main__title">
-                <span class="main__title-decoration">Mindgate —</span>  Influencer и Perfomance-маркетинг. Помогаем брендам найти их аудиторию.
-            </h1>
+        <h1>
+            Контакты
+        </h1>
+    </section>
+    <section>
+        <div>
+            адрес: 
+            Ленинградский проспект, д.36, стр.11
+
+            Телефон:
+            +7 (495) 741—92—28
+
+            email:
+            hello@mindgate.ru
         </div>
+        <form action="">
+            <input type="text">
+            <input type="text">
+            <input type="text">
+            <button>Отправить </button>
+        </form>
+    </section>
+    <section>
+        <div id="googleMap"></div>
     </section>
     <footer>
         <div class="certification">© 2019 Маркетинговое агентство Mindgate</div>
@@ -46,6 +65,5 @@
             <li><a href="https://www.facebook.com/">Facebook</a></li>
         </ul>
     </footer>
-    <script src="js/main.js"></script>
 </body>
 </html>
