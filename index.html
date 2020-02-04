@@ -6,29 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mindgate</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="shortcut icon" href="img/favic.png" type="image/x-icon">
 	<link rel="apple-touch-icon" href="img/favic.png" sizes="50x50">
-	<link rel="apple-touch-icon" href="img/favic.png" sizes="72x72">
+    <link rel="apple-touch-icon" href="img/favic.png" sizes="72x72">
+    <script src="js/main.js"></script>
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="header-container container">
 			<a href="index.html" class="logo-link">
 				<img class="logo" src="img/logo.svg" alt="logo"/>
 			</a>
             <nav>
                 <ul class="nav-menu">
-                    <li><a href="#">Главная</a></li>
-                    <li><a href="about-company.html">О компании</a></li>
-                    <li><a href="services.html">Услуги</a></li>
-                    <li><a href="contacts.html">Контакты</a></li>
+                    <li><a class="menu__main" href="#">Главная</a></li>
+                    <li><a class="menu__about-company" href="about-company.html">О компании</a></li>
+                    <li><a class="menu__services" href="services.html">Услуги</a></li>
+                    <li><a class="menu__contacts" href="contacts.html">Контакты</a></li>
                 </ul>
-                <button id="burger" class="burger">
-                    <span class="bar1"></span>
-                    <span class="bar2"></span>
-                    <span class="bar3"></span>
-                </button>
+                <div class="burger">
+                    <div class="x"></div>
+                    <div class="y"></div>
+                    <div class="z"></div>
+                </div>    
             </nav>
         </div>
     </header>
