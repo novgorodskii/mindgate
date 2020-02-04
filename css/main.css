@@ -42,7 +42,8 @@
 	top: 0px;
 	width: 100%;
 	height: 126px; 
-	background-color: #ffffff;  
+	background-color: #ffffff;
+	z-index: 1;  
 }
 
 .header-container {
@@ -215,8 +216,10 @@ div.circle.expand{
 }
 
 .background__main-section {
-	background: url(img/index-background.svg);
 	position: relative;
+	width: 1128px;
+	height: 462px;
+	background: url(../img/index-background.svg) no-repeat;
 	top: 138px;
 
 }
@@ -224,6 +227,9 @@ div.circle.expand{
 .background__main {
 	width: 896px;
 	height: 193px;
+	position: absolute;
+	top: 97px;
+	left: 121px;
 	background-color: #002749;
 	font-weight: 600;
 	font-size: 14px;
@@ -233,6 +239,7 @@ div.circle.expand{
 .main__title {
 	color: #ffffff;
 	position: absolute;
+	width: 758px;
 	left: 26px;
 	right: 112px;
 	top: 42px;
@@ -244,5 +251,19 @@ div.circle.expand{
 	color: #7DCEF1;
 }
 
+.arrow {
+	position: absolute;
+	font-size: 70px;
+	width: 151px;
+	height: 11px;
+	color: #ffffff;
+	left: 800px;
+	top: 100px;
+}
 
+.footer {
+	position: relative;
+	height: 122px;
+	top: 188px;
+}
 
