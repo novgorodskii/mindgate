@@ -7,7 +7,7 @@ const burgerMenu = () => {
     body.addEventListener('click', (event) => {
 
         let target = event.target;
-
+        console.log(target);
         if (target.closest('.burger')) {
             menu.classList.add('burger-open');
             menuNav.style.display = 'block';

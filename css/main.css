@@ -87,10 +87,10 @@ a {
 }
 
 div.burger {
-	position: absolute;
-	width: 44px;
-	height: 12px;
-	left: 1000px;
+	position: relative;
+	width: 60px;
+	height: 60px;
+	left: 300px;
 	top: 64px;
 	cursor: pointer;	
 }
@@ -112,8 +112,9 @@ div.x, div.y, div.z {
 div.y {
 	height: 2px;
 	width: 44px;
+	position: absolute;
 	top: 18px;
-	right: 10px;
+	right: 26px;
 }
 
 div.x, div.z { 
@@ -202,9 +203,42 @@ div.circle.expand{
 	top: -560px;
 	left: -565px; 	
 	-webkit-transition: all 400ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
-	   -moz-transition: all 400ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
-	    -ms-transition: all 400ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
-	     -o-transition: all 400ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
-	        transition: all 400ms cubic-bezier(0.000, 0.995, 0.990, 1.000);					
-	
+	-moz-transition: all 400ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
+	-ms-transition: all 400ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
+	-o-transition: all 400ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
+	transition: all 400ms cubic-bezier(0.000, 0.995, 0.990, 1.000);					
+
 }
+
+.background__main-section {
+	background: url(img/index-background.svg);
+	position: relative;
+	top: 138px;
+
+}
+
+.background__main {
+	width: 896px;
+	height: 193px;
+	background-color: #002749;
+	font-weight: 600;
+	font-size: 14px;
+	letter-spacing: 0.02em;
+}
+
+.main__title {
+	color: #ffffff;
+	position: absolute;
+	left: 26px;
+	right: 112px;
+	top: 42px;
+	bottom: 71px;
+	margin: 0px;
+}
+
+.main__title-decoration {
+	color: #7DCEF1;
+}
+
+
+
