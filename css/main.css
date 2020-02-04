@@ -267,3 +267,26 @@ div.circle.expand{
 	top: 188px;
 }
 
+.certification {
+	position: absolute;
+	width: 252px;
+	height: 19px;
+	left: 80px;
+	font-size: 11px;
+	line-height: 19px;
+	letter-spacing: 0.02em;
+	color: rgba(0, 39, 73, 0.66);
+}
+
+.social {
+	display: flex;
+	width: 41px;
+	height: 19px;
+}
+
+.social__link {
+	font-size: 11px;
+	line-height: 19px;
+	letter-spacing: 0.02em;
+	padding-right: 46px;
+}
